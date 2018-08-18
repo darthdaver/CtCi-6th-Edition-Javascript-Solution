@@ -1,0 +1,15 @@
+{
+  "name": "ctci-6th-edition-javascript-personal",
+  "version": "1.0.0",
+  "description": "Code to solve the excercises proposed in the book Cracking the Coding Interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Davide Molinelli",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
