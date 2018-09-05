@@ -5,6 +5,8 @@ const ASCII_CODES = 127;
  * The time complexity of the following algorithm is O(n)
  */
 exports.checkIsUnique = function (str){
+  // There is necessarily a duplicate character if the string is longer than
+  // the number of characters contained in the ASCII codification standard
   if(str.length > ASCII_CODES){
     return false;
   }
